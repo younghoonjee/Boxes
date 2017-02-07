@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ACF20DC01E4A5A6300F2870E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF20DBF1E4A5A6300F2870E /* main.m */; };
+		ACF20DC81E4A5B9F00F2870E /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF20DC71E4A5B9F00F2870E /* Box.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		ACF20DBC1E4A5A6300F2870E /* Boxes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Boxes; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF20DBF1E4A5A6300F2870E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACF20DC61E4A5B9F00F2870E /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		ACF20DC71E4A5B9F00F2870E /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				ACF20DBF1E4A5A6300F2870E /* main.m */,
+				ACF20DC61E4A5B9F00F2870E /* Box.h */,
+				ACF20DC71E4A5B9F00F2870E /* Box.m */,
 			);
 			path = Boxes;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF20DC01E4A5A6300F2870E /* main.m in Sources */,
+				ACF20DC81E4A5B9F00F2870E /* Box.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				ACF20DC51E4A5A6300F2870E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
